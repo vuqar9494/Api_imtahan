@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+
+ <!--  <include file="CreationScripts/01_TablesAndConstraints.sql"/> -->
+  <!--<include file="CreationScripts/02_Sequences.sql"/>-->
+  <!--<include file="CreationScripts/03_Triggers.sql"/>-->
+  
+  <include file="UpgradeScripts/01_AlterTables.sql"/>
+  
+  <!--<include file="CreationScripts/04_StoredProcedures.sql"/>>-->
+  <!--<include file="CreationScripts/05_Views.sql"/>>-->
+  <!-- <include file="MasterData/01_MasterData.sql"/> -->
+
+</databaseChangeLog>
